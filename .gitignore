@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.vscode/NEWLY_CREATED_BY_SPRING_INITIALIZR
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Node / web (M1)
+node_modules/
+web/dist/
+
+# Testcontainers / logs
+*.log
