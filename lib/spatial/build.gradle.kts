@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    api(project(":dispatch"))
+    api(project(":lib:core"))
 }

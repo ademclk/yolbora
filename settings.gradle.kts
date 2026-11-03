@@ -19,13 +19,13 @@ dependencyResolutionManagement {
 rootProject.name = "ideate"
 
 include(
-    "core",
-    "spatial",
-    "dispatch",
-    "planner",
-    "mission",
+    "lib:core",
+    "lib:spatial",
+    "lib:dispatch",
+    "lib:planner",
+    "lib:mission",
+    "lib:ingest",
     "sim",
-    "ingest",
     "api",
     "web",
     "arch",

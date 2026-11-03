@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    api(project(":spatial"))
+    api(project(":lib:spatial"))
 }

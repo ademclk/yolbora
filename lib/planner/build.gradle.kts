@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    api(project(":planner"))
+    api(project(":lib:dispatch"))
 }

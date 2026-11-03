@@ -16,7 +16,7 @@ allprojects {
 }
 
 subprojects {
-    if (name == "web") {
+    if (name == "web" || name == "lib") {
         return@subprojects
     }
 

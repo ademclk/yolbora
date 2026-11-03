@@ -6,9 +6,9 @@ plugins {
 dependencies {
     implementation(platform(libs.spring.boot.bom))
 
-    implementation(project(":mission"))
+    implementation(project(":lib:mission"))
     implementation(project(":sim"))
-    implementation(project(":ingest"))
+    implementation(project(":lib:ingest"))
 
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.springframework.boot:spring-boot-starter-actuator")

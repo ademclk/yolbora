@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    api(project(":mission"))
+    api(project(":lib:mission"))
 }
